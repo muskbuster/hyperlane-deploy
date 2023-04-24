@@ -30,7 +30,6 @@ import { mergeJSON, tryReadJSON, writeFileAtPath, writeJSON } from '../json';
 import { createLogger } from '../logger';
 
 import { getWarpConfigChains, validateWarpTokenConfig } from './config';
-import { TokenMetadata, WarpUITokenConfig } from './types';
 
 export async function getArgs(multiProvider: MultiProvider) {
   const args = await yargs(process.argv.slice(2))
@@ -144,7 +143,6 @@ export class WarpRouteDeployer {
     return {
       configMap,
       baseToken: {
-        type: baseType,
         chainName: baseChainName,
         address: baseTokenAddr,
         metadata: baseTokenMetadata,
@@ -180,17 +178,24 @@ export class WarpRouteDeployer {
   writeDeploymentResult(
     contracts: HyperlaneContractsMap<HypERC20Factories>,
     configMap: ChainMap<TokenConfig & RouterConfig>,
-    baseToken: Awaited<
-      ReturnType<typeof this.buildHypERC20Config>
-    >['baseToken'],
+    baseToken: {
+      chainName: ChainName;
+      address: types.Address;
+      metadata: TokenMetadata;
+    },
   ) {
-    this.writeTokenDeploymentArtifacts(contracts, configMap);
-    this.writeWarpUiTokenList(contracts, baseToken);
+    this.writeTokenDeploymentArtifacts(configMap, contracts);
+    this.writeWarpUiTokenList(
+      baseToken.chainName,
+      baseToken.address,
+      baseToken.metadata,
+      contracts,
+    );
   }
 
   writeTokenDeploymentArtifacts(
+    tokenConfigs: ChainMap<TokenConfig & RouterConfig>,
     contracts: HyperlaneContractsMap<HypERC20Factories>,
-    configMap: ChainMap<TokenConfig & RouterConfig>,
   ) {
     this.logger(
       'Writing token deployment addresses to artifacts/warp-token-addresses.json',
@@ -200,7 +205,7 @@ export class WarpRouteDeployer {
       (chain, contract) => {
         return {
           router: contract.router.address,
-          tokenType: configMap[chain].type,
+          tokenType: tokenConfigs[chain].type,
         };
       },
     );
@@ -208,43 +213,27 @@ export class WarpRouteDeployer {
   }
 
   writeWarpUiTokenList(
+    baseChain: ChainName,
+    baseTokenAddr: types.Address,
+    baseTokenMetadata: TokenMetadata,
     contracts: HyperlaneContractsMap<HypERC20Factories>,
-    baseToken: Awaited<
-      ReturnType<typeof this.buildHypERC20Config>
-    >['baseToken'],
   ) {
     this.logger(
-      'Writing warp ui token list to artifacts/warp-ui-token-list.json and artifacts/warp-ui-token-list.ts',
+      'Writing warp ui token list to artifacts/warp-ui-token-list.json',
     );
-    const currentTokenList: WarpUITokenConfig[] =
-      tryReadJSON('./artifacts/', 'warp-ui-token-list.json') || [];
+    const currentTokenList: ListTokenMetadata[] =
+      tryReadJSON('./artifacts/', 'warp-tokens.json') || [];
 
-    const { type, address, chainName, metadata } = baseToken;
-    const { name, symbol, decimals } = metadata;
-    const hypTokenAddr = contracts[chainName].router.address;
-    const commonFields = {
-      chainId: this.multiProvider.getChainId(chainName),
+    const { name, symbol, decimals } = baseTokenMetadata;
+    const hypTokenAddr = contracts[baseChain].router.address;
+    const newToken = {
+      chainId: this.multiProvider.getChainId(baseChain),
+      address: baseTokenAddr,
       name,
       symbol,
       decimals,
+      hypCollateralAddress: hypTokenAddr,
     };
-    let newToken: WarpUITokenConfig;
-    if (type === TokenType.collateral) {
-      newToken = {
-        ...commonFields,
-        type: TokenType.collateral,
-        address,
-        hypCollateralAddress: hypTokenAddr,
-      };
-    } else if (type === TokenType.native) {
-      newToken = {
-        ...commonFields,
-        type: TokenType.native,
-        hypNativeAddress: hypTokenAddr,
-      };
-    } else {
-      throw new Error(`Unsupported token type: ${type}`);
-    }
 
     currentTokenList.push(newToken);
     // Write list as JSON
@@ -259,4 +248,16 @@ export class WarpRouteDeployer {
       `export const tokenList = [\n${serializedTokens}\n];`,
     );
   }
+}
+
+interface TokenMetadata {
+  name: string;
+  symbol: string;
+  decimals: number;
+}
+
+interface ListTokenMetadata extends TokenMetadata {
+  chainId: number;
+  address: string;
+  hypCollateralAddress: string;
 }
