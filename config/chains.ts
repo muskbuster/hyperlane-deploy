@@ -24,4 +24,25 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
+  shardeumsphinx1: {
+    name: 'shardeumsphinx1',
+    chainId: 8082,
+    nativeToken: {
+      name: 'shardeum',
+      symbol: 'SHM',
+      decimals: 18,
+    },
+    publicRpcUrls: [
+      {
+        http: 'https://sphinx.shardeum.org',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Shardeum Explorer',
+        url: 'https://explorer-sphinx.shardeum.org',
+      },
+    ],
+    isTestnet: true,
+  },
 };
