@@ -2,13 +2,10 @@ import { ChainMap, ChainMetadata } from '@hyperlane-xyz/sdk';
 
 // A map of chain names to ChainMetadata
 export const chains: ChainMap<ChainMetadata> = {
-  // ----------- Add your chains here -----------------
-  anvil1: {
-    name: 'anvil1',
-    // anvil default chain id
-    chainId: 31337,
-    // Used to configure a Warp Route to bridge anvil1 ETH
-    // to anvil2 in CI tests.
+  // ----------- Your chains here -----------------
+  polygonzkevmtestnet: {
+    name: 'polygonzkevmtestnet',
+    chainId: 1442,
     nativeToken: {
       name: 'ether',
       symbol: 'ETH',
@@ -16,17 +13,15 @@ export const chains: ChainMap<ChainMetadata> = {
     },
     publicRpcUrls: [
       {
-        http: 'http://127.0.0.1:8545',
+        http: 'https://rpc.public.zkevm-test.net',
       },
     ],
-  },
-  anvil2: {
-    name: 'anvil2',
-    chainId: 31338,
-    publicRpcUrls: [
+    blockExplorers: [
       {
-        http: 'http://127.0.0.1:8555',
+        name: 'Polygon Scan',
+        url: 'https://testnet-zkevm.polygonscan.com',
       },
     ],
+    isTestnet: true,
   },
 };
