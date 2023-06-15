@@ -66,4 +66,25 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
+  filecoincalibrationtestnet: {
+    name: 'filecoincalibrationtestnet',
+    chainId: 314159,
+    nativeToken: {
+      name: 'Chiado',
+      symbol: 'tFIL',
+      decimals: 18,
+    },
+    publicRpcUrls: [
+      {
+        http: 'https://filecoin-calibration.chainup.net/rpc/v1',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Filscan',
+        url: 'https://calibration.filscan.io',
+      },
+    ],
+    isTestnet: true,
+  },
 };
