@@ -45,4 +45,25 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
+  chiado: {
+    name: 'chiado',
+    chainId: 10200,
+    nativeToken: {
+      name: 'Chiado',
+      symbol: 'XDAI',
+      decimals: 18,
+    },
+    publicRpcUrls: [
+      {
+        http: 'https://rpc.chiadochain.net',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Blockscout',
+        url: 'https://blockscout.com/gnosis/chiado',
+      },
+    ],
+    isTestnet: true,
+  },
 };
