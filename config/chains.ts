@@ -87,4 +87,25 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
+  testnet5irechain: {
+    name: 'testnet5irechain',
+    chainId: 997,
+    nativeToken: {
+      name: '5ire',
+      symbol: '5ire',
+      decimals: 18,
+    },
+    publicRpcUrls: [
+      {
+        http: 'https://rpc-testnet.5ire.network',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: '5IRE EVM BLOCKCHAIN EXPLORER',
+        url: 'https://explorer.5ire.network',
+      },
+    ],
+    isTestnet: true,
+  },
 };
