@@ -1,6 +1,6 @@
 node_modules/
 dist/
-artifacts/
+
 
 # Yarn files
 .yarn/install-state.gz
