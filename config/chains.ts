@@ -108,4 +108,25 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
+  scrollalphatestnet: {
+    name: 'scrollalphatestnet',
+    chainId: 534353,
+    nativeToken: {
+      name: 'ETH',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    publicRpcUrls: [
+      {
+        http: 'https://alpha-rpc.scroll.io/l2',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Scroll Alpha Blockscout',
+        url: 'https://blockscout.scroll.io',
+      },
+    ],
+    isTestnet: true,
+  },
 };
