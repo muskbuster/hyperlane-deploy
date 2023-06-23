@@ -6,9 +6,8 @@ import type { WarpRouteConfig } from '../src/warp/config';
 // Not required for Hyperlane core deployments
 export const warpRouteConfig: WarpRouteConfig = {
   base: {
-    chainName: 'polygonzkevmtestnet',
-    type: TokenType.collateral,
-    address: '0x9772e198e917aC31da7825dD6b2852b3D0171CF2',
+    chainName: 'scrollalphatestnet',
+    type: TokenType.native,
   },
   synthetics: [
     {
@@ -18,13 +17,7 @@ export const warpRouteConfig: WarpRouteConfig = {
       chainName: 'mumbai',
     },
     {
-      chainName: 'fuji',
-    },
-    {
-      chainName: 'moonbasealpha',
-    },
-    {
-      chainName: 'alfajores',
+      chainName: 'polygonzkevmtestnet',
     },
   ],
 };
