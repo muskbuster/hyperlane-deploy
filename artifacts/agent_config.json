@@ -1,5 +1,22 @@
 {
   "chains": {
+    "chiado": {
+      "name": "chiado",
+      "domain": 10200,
+      "addresses": {
+        "mailbox": "0xFA9d7C3C5ab6A78006b43182AD87D80aeBB8efDf",
+        "interchainGasPaymaster": "0xAD58458d90694c0FC8cE462945bF09960426A7F5",
+        "validatorAnnounce": "0xa9F596AfB79bc9fC4748968379371dAbBb24f665"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 1,
+      "connection": {
+        "type": "http"
+      },
+      "index": {
+        "from": 4677725
+      }
+    },
     "mumbai": {
       "name": "mumbai",
       "domain": 80001,
@@ -32,23 +49,6 @@
       },
       "index": {
         "from": 625622
-      }
-    },
-    "scrollalphatestnet": {
-      "name": "scrollalphatestnet",
-      "domain": 534353,
-      "addresses": {
-        "mailbox": "0xFA9d7C3C5ab6A78006b43182AD87D80aeBB8efDf",
-        "interchainGasPaymaster": "0xAD58458d90694c0FC8cE462945bF09960426A7F5",
-        "validatorAnnounce": "0xa9F596AfB79bc9fC4748968379371dAbBb24f665"
-      },
-      "protocol": "ethereum",
-      "finalityBlocks": 1,
-      "connection": {
-        "type": "http"
-      },
-      "index": {
-        "from": 3259588
       }
     },
     "sepolia": {
