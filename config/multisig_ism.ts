@@ -11,7 +11,7 @@ export const multisigIsmConfig: ChainMap<MultisigIsmConfig> = {
       '0x5c690e1ba18c92c2b92b89e096db93d3dec0faa0',
     ],
   },
-  shardeumsphinx1: {
+  shardeumsphinxdapp1: {
     threshold: 1,
     validators: [
       '0xecac53381361BD5c4356dee603762211cEBA0D2d',

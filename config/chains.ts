@@ -24,9 +24,9 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
-  shardeumsphinx1: {
-    name: 'shardeumsphinx1',
-    chainId: 8082,
+  shardeumsphinxdapp1: {
+    name: 'shardeumsphinxdapp1',
+    chainId: 8081,
     nativeToken: {
       name: 'shardeum',
       symbol: 'SHM',
@@ -34,13 +34,13 @@ export const chains: ChainMap<ChainMetadata> = {
     },
     publicRpcUrls: [
       {
-        http: 'https://sphinx.shardeum.org',
+        http: 'https://dapps.shardeum.org/',
       },
     ],
     blockExplorers: [
       {
         name: 'Shardeum Explorer',
-        url: 'https://explorer-sphinx.shardeum.org',
+        url: 'https://explorer-dapps.shardeum.org',
       },
     ],
     isTestnet: true,
