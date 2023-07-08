@@ -31,4 +31,12 @@ export const tokenList = [
     type: 'native',
     hypNativeAddress: '0xE2C984a4faD8E9232D1bb0c2b9978E854cafcf21',
   },
+  {
+    chainId: 84531,
+    name: 'ETH',
+    symbol: 'ETH',
+    decimals: 18,
+    type: 'native',
+    hypNativeAddress: '0xa61B779A062F31Be462E8E2F3bDD311308EBb2A6',
+  },
 ];

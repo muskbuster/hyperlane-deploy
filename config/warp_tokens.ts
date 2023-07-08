@@ -6,7 +6,7 @@ import type { WarpRouteConfig } from '../src/warp/config';
 // Not required for Hyperlane core deployments
 export const warpRouteConfig: WarpRouteConfig = {
   base: {
-    chainName: 'scrollalphatestnet',
+    chainName: 'basegoerli',
     type: TokenType.native,
   },
   synthetics: [
