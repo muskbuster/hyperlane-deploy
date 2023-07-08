@@ -129,4 +129,25 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
+  basegoerli: {
+    name: 'basegoerli',
+    chainId: 84531,
+    nativeToken: {
+      name: 'ETH',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    publicRpcUrls: [
+      {
+        http: 'https://goerli.base.org',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Base Scan',
+        url: 'https://goerli.basescan.org',
+      },
+    ],
+    isTestnet: true,
+  },
 };
