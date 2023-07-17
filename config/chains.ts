@@ -171,4 +171,25 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
+  goerlilinea: {
+    name: 'goerlilinea',
+    chainId: 59140,
+    nativeToken: {
+      name: 'ETH',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    publicRpcUrls: [
+      {
+        http: 'https://rpc.goerli.linea.build',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Linea Scan',
+        url: 'https://goerli.lineascan.build/',
+      },
+    ],
+    isTestnet: true,
+  },
 };
