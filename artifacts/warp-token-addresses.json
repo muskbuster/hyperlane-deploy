@@ -1,14 +1,14 @@
 {
   "polygonzkevmtestnet": {
-    "router": "0x2589Ba48162f32fbC9dd1de55Ad0Ed999650A374",
+    "router": "0x2A6eC85430a0Bba62241E21931Ea7878E0ed2fC0",
     "tokenType": "synthetic"
   },
   "sepolia": {
-    "router": "0x25BA3883a7D7501ccA95878Bc6276D452e23FF49",
+    "router": "0x9772e198e917aC31da7825dD6b2852b3D0171CF2",
     "tokenType": "synthetic"
   },
   "mumbai": {
-    "router": "0x138ACc9Bf36243eEaA64c44593BE5091318E7E0E",
+    "router": "0x5bFf16C2A3D7Bca1673B3c8524431a6C1e2946E2",
     "tokenType": "synthetic"
   },
   "chiado": {
@@ -21,6 +21,10 @@
   },
   "basegoerli": {
     "router": "0xa61B779A062F31Be462E8E2F3bDD311308EBb2A6",
+    "tokenType": "native"
+  },
+  "goerlilinea": {
+    "router": "0xE2C984a4faD8E9232D1bb0c2b9978E854cafcf21",
     "tokenType": "native"
   }
 }

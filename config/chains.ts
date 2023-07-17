@@ -187,7 +187,7 @@ export const chains: ChainMap<ChainMetadata> = {
     blockExplorers: [
       {
         name: 'Linea Scan',
-        url: 'https://goerli.lineascan.build/',
+        url: 'https://goerli.lineascan.build',
       },
     ],
     isTestnet: true,
