@@ -150,4 +150,25 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
+  zksynctestnet: {
+    name: 'zksynctestnet',
+    chainId: 280,
+    nativeToken: {
+      name: 'ETH',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    publicRpcUrls: [
+      {
+        http: 'https://testnet.era.zksync.dev',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'zkSync Era Block Explorer',
+        url: 'https://goerli.explorer.zksync.io',
+      },
+    ],
+    isTestnet: true,
+  },
 };
