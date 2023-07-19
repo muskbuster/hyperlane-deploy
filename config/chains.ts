@@ -253,10 +253,34 @@ export const chains: ChainMap<ChainMetadata> = {
     blockExplorers: [
       {
         name: 'Polygon Scan',
-        url: 'https://mumbai.polygonscan.com/',
+        url: 'https://mumbai.polygonscan.com',
         apiUrl: 'https://api.polygonscan.com/api',
       },
     ],
     isTestnet: true,
   },
+  "athenstwo": {
+    name: 'athenstwo',
+    chainId: 7001,
+    protocol: ProtocolType.Ethereum,
+
+    nativeToken: {
+      name: 'ZETA',
+      symbol: 'aZETA',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://api.athens2.zetachain.com/evm',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'ZetaChain Explorer',
+        url: 'https://zetachain-athens-2.blockscout.com',
+        apiUrl: 'https://zetachain-athens-2.blockscout.com/api',
+      },
+    ],
+    isTestnet: true,
+  }
 };
