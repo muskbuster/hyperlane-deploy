@@ -46,5 +46,13 @@
     "decimals": 18,
     "type": "native",
     "hypNativeAddress": "0xE2C984a4faD8E9232D1bb0c2b9978E854cafcf21"
+  },
+  {
+    "chainId": 5001,
+    "name": "MNT",
+    "symbol": "MNT",
+    "decimals": 18,
+    "type": "native",
+    "hypNativeAddress": "0x782D510bDa59111907434aC9d73FE9fAE1C0774d"
   }
 ]

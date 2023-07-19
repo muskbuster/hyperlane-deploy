@@ -1,5 +1,19 @@
 {
   "chains": {
+    "mantletestnet": {
+      "name": "mantletestnet",
+      "domain": 5001,
+      "addresses": {
+        "mailbox": "0x0b07f32bbDba064269e2a2c947E314AE41c478ca",
+        "interchainGasPaymaster": "0xc540171be1B4C034b268Aa670Bcd32ab5cfC713F",
+        "validatorAnnounce": "0xC0438dF8A5008Af185B36F4f2C38be410C9ce95d"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 1,
+      "index": {
+        "from": 16000023
+      }
+    },
     "goerlilinea": {
       "name": "goerlilinea",
       "domain": 59140,
@@ -43,10 +57,7 @@
         "validatorAnnounce": "0x3Fc742696D5dc9846e04f7A1823D92cb51695f9a"
       },
       "protocol": "ethereum",
-      "finalityBlocks": 32,
-      "connection": {
-        "type": "http"
-      },
+      "finalityBlocks": 1,
       "index": {
         "from": 29390033
       }
@@ -61,9 +72,6 @@
       },
       "protocol": "ethereum",
       "finalityBlocks": 1,
-      "connection": {
-        "type": "http"
-      },
       "index": {
         "from": 625622
       }
@@ -78,9 +86,6 @@
       },
       "protocol": "ethereum",
       "finalityBlocks": 2,
-      "connection": {
-        "type": "http"
-      },
       "index": {
         "from": 3082913
       }
