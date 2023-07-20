@@ -50,29 +50,30 @@ export const chains: ChainMap<ChainMetadata> = {
   //   ],
   //   isTestnet: true,
   // },
-  // chiado: {
-  //   name: 'chiado',
-  //   chainId: 10200,
-  //       protocol: ProtocolType.Ethereum,
+  chiado: {
+    name: 'chiado',
+    chainId: 10200,
+        protocol: ProtocolType.Ethereum,
 
-  //   nativeToken: {
-  //     name: 'Chiado',
-  //     symbol: 'XDAI',
-  //     decimals: 18,
-  //   },
-  //   rpcUrls: [
-  //     {
-  //       http: 'https://rpc.chiadochain.net',
-  //     },
-  //   ],
-  //   blockExplorers: [
-  //     {
-  //       name: 'Blockscout',
-  //       url: 'https://blockscout.com/gnosis/chiado',
-  //     },
-  //   ],
-  //   isTestnet: true,
-  // },
+    nativeToken: {
+      name: 'Chiado',
+      symbol: 'XDAI',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://rpc.chiadochain.net',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Blockscout',
+        url: 'https://gnosis-chiado.blockscout.com',
+        apiUrl: 'https://gnosis-chiado.blockscout.com/api'
+      },
+    ],
+    isTestnet: true,
+  },
   // filecoincalibrationtestnet: {
   //   name: 'filecoincalibrationtestnet',
   //   chainId: 314159,
@@ -119,52 +120,54 @@ export const chains: ChainMap<ChainMetadata> = {
   //   ],
   //   isTestnet: true,
   // },
-  // scrollalphatestnet: {
-  //   name: 'scrollalphatestnet',
-  //   chainId: 534353,
-  //       protocol: ProtocolType.Ethereum,
+  scrollalphatestnet: {
+    name: 'scrollalphatestnet',
+    chainId: 534353,
+        protocol: ProtocolType.Ethereum,
 
-  //   nativeToken: {
-  //     name: 'ETH',
-  //     symbol: 'ETH',
-  //     decimals: 18,
-  //   },
-  //   rpcUrls: [
-  //     {
-  //       http: 'https://alpha-rpc.scroll.io/l2',
-  //     },
-  //   ],
-  //   blockExplorers: [
-  //     {
-  //       name: 'Scroll Alpha Blockscout',
-  //       url: 'https://blockscout.scroll.io',
-  //     },
-  //   ],
-  //   isTestnet: true,
-  // },
-  // basegoerli: {
-  //   name: 'basegoerli',
-  //   chainId: 84531,
-  //       protocol: ProtocolType.Ethereum,
+    nativeToken: {
+      name: 'ETH',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://alpha-rpc.scroll.io/l2',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Scroll Alpha Blockscout',
+        url: 'https://blockscout.scroll.io',
+        apiUrl: 'https://blockscout.scroll.io/api',
+      },
+    ],
+    isTestnet: true,
+  },
+  basegoerli: {
+    name: 'basegoerli',
+    chainId: 84531,
+        protocol: ProtocolType.Ethereum,
 
-  //   nativeToken: {
-  //     name: 'ETH',
-  //     symbol: 'ETH',
-  //     decimals: 18,
-  //   },
-  //   rpcUrls: [
-  //     {
-  //       http: 'https://goerli.base.org',
-  //     },
-  //   ],
-  //   blockExplorers: [
-  //     {
-  //       name: 'Base Scan',
-  //       url: 'https://goerli.basescan.org',
-  //     },
-  //   ],
-  //   isTestnet: true,
-  // },
+    nativeToken: {
+      name: 'ETH',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://goerli.base.org',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Base Scan',
+        url: 'https://goerli.basescan.org',
+        apiUrl: 'https://api-goerli.basescan.org'
+      },
+    ],
+    isTestnet: true,
+  },
   zksynceratestnet: {
     name: 'zksynceratestnet',
     chainId: 280,
@@ -188,29 +191,30 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
-  // goerlilinea: {
-  //   name: 'goerlilinea',
-  //   chainId: 59140,
-  //       protocol: ProtocolType.Ethereum,
+  goerlilinea: {
+    name: 'goerlilinea',
+    chainId: 59140,
+        protocol: ProtocolType.Ethereum,
 
-  //   nativeToken: {
-  //     name: 'ETH',
-  //     symbol: 'ETH',
-  //     decimals: 18,
-  //   },
-  //   rpcUrls: [
-  //     {
-  //       http: 'https://rpc.goerli.linea.build',
-  //     },
-  //   ],
-  //   blockExplorers: [
-  //     {
-  //       name: 'Linea Scan',
-  //       url: 'https://goerli.lineascan.build',
-  //     },
-  //   ],
-  //   isTestnet: true,
-  // },
+    nativeToken: {
+      name: 'ETH',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://rpc.goerli.linea.build',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Linea Scan',
+        url: 'https://goerli.lineascan.build',
+        apiUrl: 'https://api-testnet.lineascan.build/api'
+      },
+    ],
+    isTestnet: true,
+  },
   mantletestnet: {
     name: 'mantletestnet',
     chainId: 5001,
