@@ -1,5 +1,31 @@
 {
   "chains": {
+    "chiado": {
+      "name": "chiado",
+      "domain": 10200,
+      "addresses": {
+        "mailbox": "0xFA9d7C3C5ab6A78006b43182AD87D80aeBB8efDf",
+        "interchainGasPaymaster": "0xAD58458d90694c0FC8cE462945bF09960426A7F5",
+        "validatorAnnounce": "0xa9F596AfB79bc9fC4748968379371dAbBb24f665"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 1,
+      "index": {}
+    },
+    "fuji": {
+      "name": "fuji",
+      "domain": 43113,
+      "addresses": {
+        "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
+        "interchainGasPaymaster": "0xeD5A7FC23b0173aF011b0602E83E902644266431",
+        "validatorAnnounce": "0x3Fc742696D5dc9846e04f7A1823D92cb51695f9a"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 3,
+      "index": {
+        "from": 16330615
+      }
+    },
     "mantletestnet": {
       "name": "mantletestnet",
       "domain": 5001,
@@ -11,7 +37,7 @@
       "protocol": "ethereum",
       "finalityBlocks": 1,
       "index": {
-        "from": 16000023
+        "from": 16068805
       }
     },
     "goerlilinea": {
@@ -75,6 +101,18 @@
       "index": {
         "from": 625622
       }
+    },
+    "scrollalphatestnet": {
+      "name": "scrollalphatestnet",
+      "domain": 534353,
+      "addresses": {
+        "mailbox": "0xFA9d7C3C5ab6A78006b43182AD87D80aeBB8efDf",
+        "interchainGasPaymaster": "0xAD58458d90694c0FC8cE462945bF09960426A7F5",
+        "validatorAnnounce": "0xa9F596AfB79bc9fC4748968379371dAbBb24f665"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 1,
+      "index": {}
     },
     "sepolia": {
       "name": "sepolia",
