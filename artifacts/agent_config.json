@@ -1,5 +1,17 @@
 {
   "chains": {
+    "basegoerli": {
+      "name": "basegoerli",
+      "domain": 84531,
+      "addresses": {
+        "mailbox": "0xdE7bDd5E8E6b48bCBc3bf33AC1C3f0807A8407F1",
+        "interchainGasPaymaster": "0xc540171be1B4C034b268Aa670Bcd32ab5cfC713F",
+        "validatorAnnounce": "0xAD58458d90694c0FC8cE462945bF09960426A7F5"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 1,
+      "index": {}
+    },
     "chiado": {
       "name": "chiado",
       "domain": 10200,

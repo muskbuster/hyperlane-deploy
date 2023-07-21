@@ -112,7 +112,12 @@
     "testRecipient": "0x9B6c06c06fFbcE76183290eb2C679D9affae65Fb",
     "storageGasOracle": "0xE2C984a4faD8E9232D1bb0c2b9978E854cafcf21",
     "interchainGasPaymaster": "0xc540171be1B4C034b268Aa670Bcd32ab5cfC713F",
-    "defaultIsmInterchainGasPaymaster": "0x158fe303274322204E5233c971CB676d768Db782"
+    "defaultIsmInterchainGasPaymaster": "0x158fe303274322204E5233c971CB676d768Db782",
+    "merkleRootMultisigIsmFactory": "0x13a2C109A9506b54f936724a5A318db7C5d4995e",
+    "messageIdMultisigIsmFactory": "0x88F95e336526f70BE36bff1a0A8B922E17B718A3",
+    "aggregationIsmFactory": "0x979bd76EfEF812aed834D48cBF21B43Ae415345d",
+    "routingIsmFactory": "0xCe7b54107287aBDb6d69E61a486f2876Bf86cDB4",
+    "interchainSecurityModule": "0x10A32F7cF0BD27A3E3917E37468A55dA1a91b244"
   },
   "goerlilinea": {
     "multisigIsm": "0x755172Ef01936279fD12006278718073Ee326a50",
