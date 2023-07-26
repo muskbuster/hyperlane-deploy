@@ -27,29 +27,29 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
-  // shardeumsphinxdapp1: {
-  //   name: 'shardeumsphinxdapp1',
-  //   chainId: 8081,
-  //       protocol: ProtocolType.Ethereum,
+  shardeumsphinxdapp1: {
+    name: 'shardeumsphinxdapp1',
+    chainId: 8081,
+        protocol: ProtocolType.Ethereum,
 
-  //   nativeToken: {
-  //     name: 'shardeum',
-  //     symbol: 'SHM',
-  //     decimals: 18,
-  //   },
-  //   rpcUrls: [
-  //     {
-  //       http: 'https://dapps.shardeum.org/',
-  //     },
-  //   ],
-  //   blockExplorers: [
-  //     {
-  //       name: 'Shardeum Explorer',
-  //       url: 'https://explorer-dapps.shardeum.org',
-  //     },
-  //   ],
-  //   isTestnet: true,
-  // },
+    nativeToken: {
+      name: 'shardeum',
+      symbol: 'SHM',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://dapps.shardeum.org/',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Shardeum Explorer',
+        url: 'https://explorer-dapps.shardeum.org'
+      },
+    ],
+    isTestnet: true,
+  },
   chiado: {
     name: 'chiado',
     chainId: 10200,
