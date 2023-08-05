@@ -54,5 +54,13 @@
     "decimals": 18,
     "type": "native",
     "hypNativeAddress": "0x782D510bDa59111907434aC9d73FE9fAE1C0774d"
+  },
+  {
+    "chainId": 8081,
+    "name": "shardeum",
+    "symbol": "SHM",
+    "decimals": 18,
+    "type": "native",
+    "hypNativeAddress": "0x158fe303274322204E5233c971CB676d768Db782"
   }
 ]

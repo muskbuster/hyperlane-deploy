@@ -45,7 +45,8 @@ export const chains: ChainMap<ChainMetadata> = {
     blockExplorers: [
       {
         name: 'Shardeum Explorer',
-        url: 'https://explorer-dapps.shardeum.org'
+        url: 'https://explorer-dapps.shardeum.org',
+         apiUrl: 'https://api-zkevm.polygonscan.com/api',
       },
     ],
     isTestnet: true,
