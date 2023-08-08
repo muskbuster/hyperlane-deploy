@@ -264,7 +264,7 @@ export const chains: ChainMap<ChainMetadata> = {
     ],
     isTestnet: true,
   },
-  "athenstwo": {
+  athenstwo: {
     name: 'athenstwo',
     chainId: 7001,
     protocol: ProtocolType.Ethereum,
@@ -284,6 +284,30 @@ export const chains: ChainMap<ChainMetadata> = {
         name: 'ZetaChain Explorer',
         url: 'https://zetachain-athens-2.blockscout.com',
         apiUrl: 'https://zetachain-athens-2.blockscout.com/api',
+      },
+    ],
+    isTestnet: true,
+  },
+  fantomtestnet: {
+    name: 'fantomtestnet',
+    chainId: 4002,
+    protocol: ProtocolType.Ethereum,
+
+    nativeToken: {
+      name: 'FTM',
+      symbol: 'FTM',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://rpc.testnet.fantom.network/',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'FTMScan',
+        url: 'https://testnet.ftmscan.com/',
+        apiUrl: 'https://api-testnet.ftmscan.com/api',
       },
     ],
     isTestnet: true,
