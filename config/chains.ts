@@ -311,5 +311,28 @@ export const chains: ChainMap<ChainMetadata> = {
       },
     ],
     isTestnet: true,
+  },
+  auroratestnet: {
+    name: 'auroratestnet',
+    chainId: 1313161555,
+    protocol: ProtocolType.Ethereum,
+    nativeToken: {
+      name: 'ETH',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://testnet.aurora.dev',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Aurora Testnet Explorer',
+        url: 'https://explorer.testnet.aurora.dev/',
+        apiUrl: 'https://explorer.testnet.aurora.dev/api',
+      },
+    ],
+    isTestnet: true,
   }
 };
