@@ -62,5 +62,13 @@
     "decimals": 18,
     "type": "native",
     "hypNativeAddress": "0x158fe303274322204E5233c971CB676d768Db782"
+  },
+  {
+    "chainId": 4002,
+    "name": "FTM",
+    "symbol": "FTM",
+    "decimals": 18,
+    "type": "native",
+    "hypNativeAddress": "0x1b4c2C130E3e96e9e39416Aaf63F1428A2e2B0c2"
   }
 ]

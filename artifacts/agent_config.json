@@ -24,18 +24,18 @@
       "finalityBlocks": 1,
       "index": {}
     },
-    "fuji": {
-      "name": "fuji",
-      "domain": 43113,
+    "fantomtestnet": {
+      "name": "fantomtestnet",
+      "domain": 4002,
       "addresses": {
-        "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
-        "interchainGasPaymaster": "0xeD5A7FC23b0173aF011b0602E83E902644266431",
-        "validatorAnnounce": "0x3Fc742696D5dc9846e04f7A1823D92cb51695f9a"
+        "mailbox": "0x782D510bDa59111907434aC9d73FE9fAE1C0774d",
+        "interchainGasPaymaster": "0xa6251c4dFF7120508c90ef21447DBcC321dF8a57",
+        "validatorAnnounce": "0x771936BbE3E4B5924DdC7c1daA45411470AF2414"
       },
       "protocol": "ethereum",
-      "finalityBlocks": 3,
+      "finalityBlocks": 1,
       "index": {
-        "from": 16330615
+        "from": 19221839
       }
     },
     "mantletestnet": {
@@ -48,26 +48,7 @@
       },
       "protocol": "ethereum",
       "finalityBlocks": 1,
-      "index": {
-        "from": 16068805
-      }
-    },
-    "goerlilinea": {
-      "name": "goerlilinea",
-      "domain": 59140,
-      "addresses": {
-        "mailbox": "0xFA9d7C3C5ab6A78006b43182AD87D80aeBB8efDf",
-        "interchainGasPaymaster": "0xAD58458d90694c0FC8cE462945bF09960426A7F5",
-        "validatorAnnounce": "0xa9F596AfB79bc9fC4748968379371dAbBb24f665"
-      },
-      "protocol": "ethereum",
-      "finalityBlocks": 1,
-      "connection": {
-        "type": "http"
-      },
-      "index": {
-        "from": 1147287
-      }
+      "index": {}
     },
     "mumbai": {
       "name": "mumbai",
@@ -121,20 +102,6 @@
       "finalityBlocks": 2,
       "index": {
         "from": 3082913
-      }
-    },
-    "shardeumsphinxdapp1": {
-      "name": "shardeumsphinxdapp1",
-      "domain": 8081,
-      "addresses": {
-        "mailbox": "0xFA9d7C3C5ab6A78006b43182AD87D80aeBB8efDf",
-        "interchainGasPaymaster": "0xAD58458d90694c0FC8cE462945bF09960426A7F5",
-        "validatorAnnounce": "0xa9F596AfB79bc9fC4748968379371dAbBb24f665"
-      },
-      "protocol": "ethereum",
-      "finalityBlocks": 1,
-      "index": {
-        "from": 584853
       }
     }
   }
