@@ -1,55 +1,5 @@
 {
   "chains": {
-    "basegoerli": {
-      "name": "basegoerli",
-      "domain": 84531,
-      "addresses": {
-        "mailbox": "0xdE7bDd5E8E6b48bCBc3bf33AC1C3f0807A8407F1",
-        "interchainGasPaymaster": "0xc540171be1B4C034b268Aa670Bcd32ab5cfC713F",
-        "validatorAnnounce": "0xAD58458d90694c0FC8cE462945bF09960426A7F5"
-      },
-      "protocol": "ethereum",
-      "finalityBlocks": 1,
-      "index": {}
-    },
-    "chiado": {
-      "name": "chiado",
-      "domain": 10200,
-      "addresses": {
-        "mailbox": "0xFA9d7C3C5ab6A78006b43182AD87D80aeBB8efDf",
-        "interchainGasPaymaster": "0xAD58458d90694c0FC8cE462945bF09960426A7F5",
-        "validatorAnnounce": "0xa9F596AfB79bc9fC4748968379371dAbBb24f665"
-      },
-      "protocol": "ethereum",
-      "finalityBlocks": 1,
-      "index": {}
-    },
-    "fantomtestnet": {
-      "name": "fantomtestnet",
-      "domain": 4002,
-      "addresses": {
-        "mailbox": "0x782D510bDa59111907434aC9d73FE9fAE1C0774d",
-        "interchainGasPaymaster": "0xa6251c4dFF7120508c90ef21447DBcC321dF8a57",
-        "validatorAnnounce": "0x771936BbE3E4B5924DdC7c1daA45411470AF2414"
-      },
-      "protocol": "ethereum",
-      "finalityBlocks": 1,
-      "index": {
-        "from": 19221839
-      }
-    },
-    "mantletestnet": {
-      "name": "mantletestnet",
-      "domain": 5001,
-      "addresses": {
-        "mailbox": "0x0b07f32bbDba064269e2a2c947E314AE41c478ca",
-        "interchainGasPaymaster": "0xc540171be1B4C034b268Aa670Bcd32ab5cfC713F",
-        "validatorAnnounce": "0xC0438dF8A5008Af185B36F4f2C38be410C9ce95d"
-      },
-      "protocol": "ethereum",
-      "finalityBlocks": 1,
-      "index": {}
-    },
     "mumbai": {
       "name": "mumbai",
       "domain": 80001,
@@ -64,31 +14,19 @@
         "from": 29390033
       }
     },
-    "polygonzkevmtestnet": {
-      "name": "polygonzkevmtestnet",
-      "domain": 1442,
+    "nordektestnet": {
+      "name": "nordektestnet",
+      "domain": 58875,
       "addresses": {
-        "mailbox": "0x0282ee93886E62627C863D9Ec88F1408eA7Aeb3B",
-        "interchainGasPaymaster": "0x57e69f9cC96Fb9324a196322367520ecE437d896",
-        "validatorAnnounce": "0x0b07f32bbDba064269e2a2c947E314AE41c478ca"
+        "mailbox": "0xC6310652Bf9c856d63567bFAb7aA3BAdF3999D56",
+        "interchainGasPaymaster": "0xa6251c4dFF7120508c90ef21447DBcC321dF8a57",
+        "validatorAnnounce": "0x7d67BB812cCd808cbC0d017646fc65DbBe6AaCd9"
       },
       "protocol": "ethereum",
       "finalityBlocks": 1,
       "index": {
-        "from": 625622
+        "from": 3984371
       }
-    },
-    "scrollalphatestnet": {
-      "name": "scrollalphatestnet",
-      "domain": 534353,
-      "addresses": {
-        "mailbox": "0xFA9d7C3C5ab6A78006b43182AD87D80aeBB8efDf",
-        "interchainGasPaymaster": "0xAD58458d90694c0FC8cE462945bF09960426A7F5",
-        "validatorAnnounce": "0xa9F596AfB79bc9fC4748968379371dAbBb24f665"
-      },
-      "protocol": "ethereum",
-      "finalityBlocks": 1,
-      "index": {}
     },
     "sepolia": {
       "name": "sepolia",

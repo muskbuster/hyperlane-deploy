@@ -12,7 +12,7 @@
     "messageIdMultisigIsmFactory": "0x5DD779564bD67988d2c85f248eD4F1d97E8DFE0d",
     "aggregationIsmFactory": "0xE4e91BF5B99e6b731F632b1cc4dd0BbF991f9772",
     "routingIsmFactory": "0x666629D8B7A76ffFccaF499E10f1e4689c1f953e",
-    "interchainSecurityModule": "0x0B9876bbe46d9Ebf1811ab06c405e9A2d2CFe8dd",
+    "interchainSecurityModule": "0x265921F291A144371F17ce26A759c7fD021AdE4a",
     "timelockController": "0x0000000000000000000000000000000000000000"
   },
   "sepolia": {
@@ -24,7 +24,7 @@
     "defaultIsmInterchainGasPaymaster": "0xd52be8da98A65E6bC4901174322e092B71EC98D0",
     "merkleRootMultisigIsmFactory": "0xe3CA27682CCf5512f28ECE90949DC19D7A90cA49",
     "messageIdMultisigIsmFactory": "0xD5366B5d5098037C38A012E7B53210c9Fd1bB452",
-    "interchainSecurityModule": "0xccdB6280b416Ef7f8593fbcaBC26b6E0FEa24413"
+    "interchainSecurityModule": "0xdB303338a19Ae41A45B903a2D540c7Ec56978bdA"
   },
   "fuji": {
     "multisigIsm": "0xC3b32C172f0A92ef396802b450115E337fe364Db",
@@ -35,7 +35,7 @@
     "defaultIsmInterchainGasPaymaster": "0xcAaCE5Ae98563ef620E0bB1b3c429C83d4ECef61",
     "merkleRootMultisigIsmFactory": "0xFCEd70540C7A5ab0b52Ea679aa44533C25A48901",
     "messageIdMultisigIsmFactory": "0x238b57EFdFAf2EA60C5be1e3B2A11a53f41096F7",
-    "interchainSecurityModule": "0x4b1B28e6B3E3916E5d41495382561c08afC3456d"
+    "interchainSecurityModule": "0x7046Fbcb7b32a6a1C13F9b414fDA9005441BbE74"
   },
   "alfajores": {
     "multisigIsm": "0x7006e93468d4fA4c5f2d968f8aB667d73C0dCdBb",
@@ -43,7 +43,10 @@
     "proxyAdmin": "0xe7BAd80AE9F6d5d7ede6dEd3e73dB4f29B95ef8a",
     "storageGasOracle": "0xAB1Fc866407149D164B8e8909ae46029458b640d",
     "interchainGasPaymaster": "0x601a251c428A0DD39CfF25cEBf7D9fED7Cd2e8A9",
-    "defaultIsmInterchainGasPaymaster": "0xF20DED5Cac2E1c0661E2F81D22F4059BB9761D40"
+    "defaultIsmInterchainGasPaymaster": "0xF20DED5Cac2E1c0661E2F81D22F4059BB9761D40",
+    "merkleRootMultisigIsmFactory": "0x74B2B3842987378A94140DFE6B9b054DC444422d",
+    "messageIdMultisigIsmFactory": "0x098FDcdDaEB127B0278f4B0788a131a5537c9890",
+    "interchainSecurityModule": "0xE3510A4D8f467289366A1122770792B13e9e99e9"
   },
   "moonbasealpha": {
     "multisigIsm": "0xf98AA375a4dA1E26a5Ac173B4D4E47Fadd999D8C",
@@ -51,7 +54,10 @@
     "proxyAdmin": "0xa6251c4dFF7120508c90ef21447DBcC321dF8a57",
     "storageGasOracle": "0xedDfBA627f92F32EE2Fe2a8035C2a7152DE83244",
     "interchainGasPaymaster": "0xdE7bDd5E8E6b48bCBc3bf33AC1C3f0807A8407F1",
-    "defaultIsmInterchainGasPaymaster": "0x601a251c428A0DD39CfF25cEBf7D9fED7Cd2e8A9"
+    "defaultIsmInterchainGasPaymaster": "0x601a251c428A0DD39CfF25cEBf7D9fED7Cd2e8A9",
+    "merkleRootMultisigIsmFactory": "0x08fcf15965Dc1164250333530498dEfE6eeaffBf",
+    "messageIdMultisigIsmFactory": "0xD4f1e67a7E132440e2FcbA465a583170f2Ef59d6",
+    "interchainSecurityModule": "0x2724d43018b304CCc795fE6B78bfEA88D3159bcA"
   },
   "mumbai": {
     "multisigIsm": "0x27854369E35872c9Eb08D97B355d1BCb37b518ec",
@@ -62,7 +68,7 @@
     "defaultIsmInterchainGasPaymaster": "0x85972f2dC8a78bd4e3DFF53F597170a355088b4c",
     "merkleRootMultisigIsmFactory": "0xc3C9dA5959f69B9319ed89F2Fb986817D7B9b273",
     "messageIdMultisigIsmFactory": "0x8fC1f158F5727d688091CcE1Af22558e686739A5",
-    "interchainSecurityModule": "0xB69Ad0336a87c4510b9681d581fE8e59b07B5C9f"
+    "interchainSecurityModule": "0x3d9b8c3bf02363E1261F2bd54D5B309E06d76013"
   },
   "chiado": {
     "multisigIsm": "0x755172Ef01936279fD12006278718073Ee326a50",
@@ -77,7 +83,7 @@
     "messageIdMultisigIsmFactory": "0xf80e25CC37582CE8B2653af3AD93f902cF333C87",
     "aggregationIsmFactory": "0x13a2C109A9506b54f936724a5A318db7C5d4995e",
     "routingIsmFactory": "0x88F95e336526f70BE36bff1a0A8B922E17B718A3",
-    "interchainSecurityModule": "0xD30CAbE203385b36a84175fcb3b7a13dDd1B867F"
+    "interchainSecurityModule": "0xe60962a035eD92eC72232d5B1E2407C74a52BE0f"
   },
   "scrollalphatestnet": {
     "multisigIsm": "0x755172Ef01936279fD12006278718073Ee326a50",
@@ -92,7 +98,7 @@
     "messageIdMultisigIsmFactory": "0x88F95e336526f70BE36bff1a0A8B922E17B718A3",
     "aggregationIsmFactory": "0x979bd76EfEF812aed834D48cBF21B43Ae415345d",
     "routingIsmFactory": "0xCe7b54107287aBDb6d69E61a486f2876Bf86cDB4",
-    "interchainSecurityModule": "0x216542623d6d29B5F7ef85ca386b58602daA2544"
+    "interchainSecurityModule": "0xab755BE2758b4125ac5A854d82B5E70E6a928edC"
   },
   "shardeumsphinxdapp1": {
     "multisigIsm": "0x755172Ef01936279fD12006278718073Ee326a50",
@@ -122,7 +128,7 @@
     "messageIdMultisigIsmFactory": "0x88F95e336526f70BE36bff1a0A8B922E17B718A3",
     "aggregationIsmFactory": "0x979bd76EfEF812aed834D48cBF21B43Ae415345d",
     "routingIsmFactory": "0xCe7b54107287aBDb6d69E61a486f2876Bf86cDB4",
-    "interchainSecurityModule": "0x216542623d6d29B5F7ef85ca386b58602daA2544"
+    "interchainSecurityModule": "0xec8a537F097538Ef49a344ce4a740790FCf24748"
   },
   "goerlilinea": {
     "multisigIsm": "0x755172Ef01936279fD12006278718073Ee326a50",
@@ -147,7 +153,7 @@
     "validatorAnnounce": "0xC0438dF8A5008Af185B36F4f2C38be410C9ce95d",
     "timelockController": "0x0000000000000000000000000000000000000000",
     "testRecipient": "0xfe5Ce6126bA063cD7333B487C6A0ac834EEFd78f",
-    "interchainSecurityModule": "0xb263431923Dc44109Efc2bB89325ED436cB78a85"
+    "interchainSecurityModule": "0x7A058d6a107fE8c4D3d926b1e87c4067Ec139A63"
   },
   "fantomtestnet": {
     "merkleRootMultisigIsmFactory": "0x755172Ef01936279fD12006278718073Ee326a50",
@@ -162,5 +168,31 @@
     "validatorAnnounce": "0x771936BbE3E4B5924DdC7c1daA45411470AF2414",
     "timelockController": "0x0000000000000000000000000000000000000000",
     "testRecipient": "0x5E0Da4AD3C9fed4C787E4240ca7f794a3DA663Aa"
+  },
+  "auroratestnet": {
+    "merkleRootMultisigIsmFactory": "0xc540171be1B4C034b268Aa670Bcd32ab5cfC713F",
+    "messageIdMultisigIsmFactory": "0x3eCa02947c4E0616659E6A0Dd435a88Cfaa66d9D",
+    "aggregationIsmFactory": "0x158fe303274322204E5233c971CB676d768Db782",
+    "routingIsmFactory": "0x67c86bDE091d6cAd2b0805048c4E63faA7E05CEE",
+    "proxyAdmin": "0x88F95e336526f70BE36bff1a0A8B922E17B718A3",
+    "storageGasOracle": "0x979bd76EfEF812aed834D48cBF21B43Ae415345d",
+    "interchainGasPaymaster": "0x0b07f32bbDba064269e2a2c947E314AE41c478ca",
+    "defaultIsmInterchainGasPaymaster": "0xfe5Ce6126bA063cD7333B487C6A0ac834EEFd78f",
+    "interchainSecurityModule": "0xe41E81d7DE06d7eF1E1469E5Ed60d49709facAc4",
+    "testRecipient": "0xeD5A7FC23b0173aF011b0602E83E902644266431"
+  },
+  "nordektestnet": {
+    "merkleRootMultisigIsmFactory": "0x755172Ef01936279fD12006278718073Ee326a50",
+    "messageIdMultisigIsmFactory": "0xbE42ce01a127E501d6173f5bc21FF545f15bDdD8",
+    "aggregationIsmFactory": "0x75d18e3eBdb7F91E5FA0a14eeb88E5f7225A013e",
+    "routingIsmFactory": "0xf98AA375a4dA1E26a5Ac173B4D4E47Fadd999D8C",
+    "proxyAdmin": "0x997997CCEf8ce335A0D51f535BDF750641d6Cb7E",
+    "storageGasOracle": "0x7006e93468d4fA4c5f2d968f8aB667d73C0dCdBb",
+    "interchainGasPaymaster": "0xa6251c4dFF7120508c90ef21447DBcC321dF8a57",
+    "defaultIsmInterchainGasPaymaster": "0xe7BAd80AE9F6d5d7ede6dEd3e73dB4f29B95ef8a",
+    "mailbox": "0xC6310652Bf9c856d63567bFAb7aA3BAdF3999D56",
+    "validatorAnnounce": "0x7d67BB812cCd808cbC0d017646fc65DbBe6AaCd9",
+    "timelockController": "0x0000000000000000000000000000000000000000",
+    "testRecipient": "0xE3edcC3b009DA318C74BC3bd3ab8465F7039C5c7"
   }
 }

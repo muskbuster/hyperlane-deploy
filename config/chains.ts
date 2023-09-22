@@ -4,6 +4,55 @@ import { ChainMap, ChainMetadata, ProtocolType } from '@hyperlane-xyz/sdk';
 // A map of chain names to ChainMetadata
 export const chains: ChainMap<ChainMetadata> = {
   // ----------- Your chains here -----------------
+  polygonzkevm: {
+    name: 'polygonzkevm',
+    chainId: 1101,
+    protocol: ProtocolType.Ethereum,
+    domainId: 1101,
+    displayName: 'Polygon zkEVM',
+    displayNameShort: 'Polygon zkEVM',
+    nativeToken: {
+      name: 'ether',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://zkevm-rpc.com',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Polygon Scan',
+        url: 'https://zkevm.polygonscan.com',
+        apiUrl: 'https://api-zkevm.polygonscan.com/api',
+      },
+    ],
+    isTestnet: false,
+  },
+  nordektestnet: {
+    name: 'nordektestnet',
+    chainId: 58875,
+    protocol: ProtocolType.Ethereum,
+    nativeToken: {
+      name: 'nordek',
+      symbol: 'NRK',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://testnet-rpc.nordekscan.com/',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Nordek Scan',
+        url: 'https://testnet-explorer.nordekscan.com',
+        apiUrl: 'https://nordekscan.com/api',
+      },
+    ],
+    isTestnet: true,
+  },
   polygonzkevmtestnet: {
     name: 'polygonzkevmtestnet',
     chainId: 1442,
@@ -30,7 +79,7 @@ export const chains: ChainMap<ChainMetadata> = {
   shardeumsphinxdapp1: {
     name: 'shardeumsphinxdapp1',
     chainId: 8081,
-        protocol: ProtocolType.Ethereum,
+    protocol: ProtocolType.Ethereum,
 
     nativeToken: {
       name: 'shardeum',
@@ -46,7 +95,7 @@ export const chains: ChainMap<ChainMetadata> = {
       {
         name: 'Shardeum Explorer',
         url: 'https://explorer-dapps.shardeum.org',
-         apiUrl: 'https://api-zkevm.polygonscan.com/api',
+        apiUrl: 'https://api-zkevm.polygonscan.com/api',
       },
     ],
     isTestnet: true,
@@ -54,7 +103,7 @@ export const chains: ChainMap<ChainMetadata> = {
   chiado: {
     name: 'chiado',
     chainId: 10200,
-        protocol: ProtocolType.Ethereum,
+    protocol: ProtocolType.Ethereum,
 
     nativeToken: {
       name: 'Chiado',
@@ -124,7 +173,7 @@ export const chains: ChainMap<ChainMetadata> = {
   scrollalphatestnet: {
     name: 'scrollalphatestnet',
     chainId: 534353,
-        protocol: ProtocolType.Ethereum,
+    protocol: ProtocolType.Ethereum,
 
     nativeToken: {
       name: 'ETH',
@@ -148,7 +197,7 @@ export const chains: ChainMap<ChainMetadata> = {
   basegoerli: {
     name: 'basegoerli',
     chainId: 84531,
-        protocol: ProtocolType.Ethereum,
+    protocol: ProtocolType.Ethereum,
 
     nativeToken: {
       name: 'ETH',
@@ -195,7 +244,7 @@ export const chains: ChainMap<ChainMetadata> = {
   goerlilinea: {
     name: 'goerlilinea',
     chainId: 59140,
-        protocol: ProtocolType.Ethereum,
+    protocol: ProtocolType.Ethereum,
 
     nativeToken: {
       name: 'ETH',
