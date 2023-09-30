@@ -12,7 +12,7 @@
     "messageIdMultisigIsmFactory": "0x5DD779564bD67988d2c85f248eD4F1d97E8DFE0d",
     "aggregationIsmFactory": "0xE4e91BF5B99e6b731F632b1cc4dd0BbF991f9772",
     "routingIsmFactory": "0x666629D8B7A76ffFccaF499E10f1e4689c1f953e",
-    "interchainSecurityModule": "0x265921F291A144371F17ce26A759c7fD021AdE4a",
+    "interchainSecurityModule": "0xeaEbD2D3FE872b80b106DcB019A2b7DCC63b5c46",
     "timelockController": "0x0000000000000000000000000000000000000000"
   },
   "sepolia": {
@@ -24,7 +24,7 @@
     "defaultIsmInterchainGasPaymaster": "0xd52be8da98A65E6bC4901174322e092B71EC98D0",
     "merkleRootMultisigIsmFactory": "0xe3CA27682CCf5512f28ECE90949DC19D7A90cA49",
     "messageIdMultisigIsmFactory": "0xD5366B5d5098037C38A012E7B53210c9Fd1bB452",
-    "interchainSecurityModule": "0xdB303338a19Ae41A45B903a2D540c7Ec56978bdA"
+    "interchainSecurityModule": "0x9b2cBBa91d61b37Bd0E1c110D963cF23b96E88f1"
   },
   "fuji": {
     "multisigIsm": "0xC3b32C172f0A92ef396802b450115E337fe364Db",
@@ -68,7 +68,7 @@
     "defaultIsmInterchainGasPaymaster": "0x85972f2dC8a78bd4e3DFF53F597170a355088b4c",
     "merkleRootMultisigIsmFactory": "0xc3C9dA5959f69B9319ed89F2Fb986817D7B9b273",
     "messageIdMultisigIsmFactory": "0x8fC1f158F5727d688091CcE1Af22558e686739A5",
-    "interchainSecurityModule": "0x3d9b8c3bf02363E1261F2bd54D5B309E06d76013"
+    "interchainSecurityModule": "0x097299234E0809686b45e44f0148Af35EB4D65aC"
   },
   "chiado": {
     "multisigIsm": "0x755172Ef01936279fD12006278718073Ee326a50",
@@ -98,7 +98,7 @@
     "messageIdMultisigIsmFactory": "0x88F95e336526f70BE36bff1a0A8B922E17B718A3",
     "aggregationIsmFactory": "0x979bd76EfEF812aed834D48cBF21B43Ae415345d",
     "routingIsmFactory": "0xCe7b54107287aBDb6d69E61a486f2876Bf86cDB4",
-    "interchainSecurityModule": "0xab755BE2758b4125ac5A854d82B5E70E6a928edC"
+    "interchainSecurityModule": "0x98A9F2b433a07BA6136cb2AA48FE36728f5723dC"
   },
   "shardeumsphinxdapp1": {
     "multisigIsm": "0x755172Ef01936279fD12006278718073Ee326a50",
@@ -153,7 +153,7 @@
     "validatorAnnounce": "0xC0438dF8A5008Af185B36F4f2C38be410C9ce95d",
     "timelockController": "0x0000000000000000000000000000000000000000",
     "testRecipient": "0xfe5Ce6126bA063cD7333B487C6A0ac834EEFd78f",
-    "interchainSecurityModule": "0x7A058d6a107fE8c4D3d926b1e87c4067Ec139A63"
+    "interchainSecurityModule": "0x5db096343d91d03Ed7c6059b1021CCd5a67c7814"
   },
   "fantomtestnet": {
     "merkleRootMultisigIsmFactory": "0x755172Ef01936279fD12006278718073Ee326a50",
