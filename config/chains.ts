@@ -36,14 +36,49 @@ export const chains: ChainMap<ChainMetadata> = {
       },
     ],
   },
-  // --------------------------------------------------
-  // You can also override the default chain metadata (completely)
-  // ethereum: {
-  //   ...chainMetadata.ethereum,
-  //   publicRpcUrls: [
-  //     {
-  //       http: 'my.custom.rpc.url',
-  //     }
-  //   ],
-  // }
+  nordek: {
+    name: 'nordek',
+    protocol: ProtocolType.Ethereum,
+    chainId: 81041,
+    nativeToken: {
+      name: 'Nordek',
+      symbol: 'NRK',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://mainnet-rpc.nordekscan.com/',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Nordek Scan',
+        url: 'http://nordekscan.com/',
+        apiUrl: 'https://nordekscan.com/api',
+      },
+    ],
+  },
+  linea: {
+    name: 'linea',
+    protocol: ProtocolType.Ethereum,
+    chainId: 59144,
+    nativeToken: {
+      name: 'Ethereum',
+      symbol: 'ETH',
+      decimals: 18,
+    },
+    rpcUrls: [
+      {
+        http: 'https://linea.blockpi.network/v1/rpc/public',
+      },
+    ],
+    blockExplorers: [
+      {
+        name: 'Linea Scan',
+        url: 'https://lineascan.build',
+        apiUrl: 'https://lineascan.build/api',
+      },
+    ],
+  },
+ 
 };

@@ -1,0 +1,33 @@
+{
+  "gnosis": {
+    "proxyAdmin": "0x8a88e1BB6C87a93518cFF1be25E2218cd34142D8",
+    "storageGasOracle": "0x7C364BD602d9DB03cb3BE557b635272A93A5a35C",
+    "interchainGasPaymaster": "0x148Be6a3bad6B9301f64e715dAD75544b42E96E5",
+    "defaultIsmInterchainGasPaymaster": "0x7C396A1E03a6bA6e3df12E38110350348F59339b",
+    "interchainSecurityModule": "0x028c95D3a27939b1821725B3D8187536298D26E9",
+    "testRecipient": "0x0F115C5970C1800b0A45B3820E3E953a23Aa2E1C",
+    "merkleRootMultisigIsmFactory": "0xeE86b0a949B1d6b8F2a26F5811aA8F9aF3D8FDb9",
+    "messageIdMultisigIsmFactory": "0xa396CA94d8C16460Fadb2Eb2b8E0A07039AdcC02"
+  },
+  "nordek": {
+    "merkleRootMultisigIsmFactory": "0x88bd8124a2427039d489C80512319b2F0F60EB28",
+    "messageIdMultisigIsmFactory": "0xb968559eBbE7293663725D31E8d1d3FAca9EE6a9",
+    "aggregationIsmFactory": "0xec2FF93F5354bCD4d67fFc5BE0213cEBeFb49826",
+    "routingIsmFactory": "0xf8D00A6f625DE3029a22701d290e3568344b8888",
+    "proxyAdmin": "0x6eFaA4B1cd5EcBF0E1A75a6a89712cC11Ea1Fe25",
+    "storageGasOracle": "0x1e5894F180CCF6927374f58D976225B44e1c7e06",
+    "interchainGasPaymaster": "0xc679952E01FcAf0Fdb9803b45650247a863c0B91",
+    "defaultIsmInterchainGasPaymaster": "0x148Be6a3bad6B9301f64e715dAD75544b42E96E5",
+    "mailbox": "0x0F115C5970C1800b0A45B3820E3E953a23Aa2E1C",
+    "validatorAnnounce": "0xb811Ecf8C32BFD702b75B1869E62bdDA5Ff46cF8",
+    "timelockController": "0x0000000000000000000000000000000000000000",
+    "testRecipient": "0xeE86b0a949B1d6b8F2a26F5811aA8F9aF3D8FDb9"
+  },
+ 
+  "linea": {
+    "merkleRootMultisigIsmFactory": "0x6eFaA4B1cd5EcBF0E1A75a6a89712cC11Ea1Fe25",
+    "messageIdMultisigIsmFactory": "0x1e5894F180CCF6927374f58D976225B44e1c7e06",
+    "aggregationIsmFactory": "0x8a88e1BB6C87a93518cFF1be25E2218cd34142D8",
+    "routingIsmFactory": "0x7C364BD602d9DB03cb3BE557b635272A93A5a35C"
+  }
+}

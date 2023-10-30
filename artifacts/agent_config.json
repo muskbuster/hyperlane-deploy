@@ -1,0 +1,32 @@
+{
+  "chains": {
+    "gnosis": {
+      "name": "gnosis",
+      "domain": 100,
+      "addresses": {
+        "mailbox": "0x35231d4c2D8B8ADcB5617A638A0c4548684c7C70",
+        "interchainGasPaymaster": "0x148Be6a3bad6B9301f64e715dAD75544b42E96E5",
+        "validatorAnnounce": "0x9bBdef63594D5FFc2f370Fe52115DdFFe97Bc524"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 14,
+      "index": {
+        "from": 25900000
+      }
+    },
+    "nordek": {
+      "name": "nordek",
+      "domain": 81041,
+      "addresses": {
+        "mailbox": "0x0F115C5970C1800b0A45B3820E3E953a23Aa2E1C",
+        "interchainGasPaymaster": "0xc679952E01FcAf0Fdb9803b45650247a863c0B91",
+        "validatorAnnounce": "0xb811Ecf8C32BFD702b75B1869E62bdDA5Ff46cF8"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 1,
+      "index": {
+        "from": 4523595
+      }
+    }
+  }
+}

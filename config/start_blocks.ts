@@ -12,6 +12,8 @@ export const startBlocks: ChainMap<number> = {
   optimism: 55698988,
   moonbeam: 2595747,
   gnosis: 25900000,
+  nordek:16271503,
+  linea:16271503,
   // --------------- Testnets ---------------------
   alfajores: 14863532,
   fuji: 16330615,
